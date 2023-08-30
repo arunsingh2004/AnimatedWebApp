@@ -71,18 +71,22 @@ export const insights = [
 export const socials = [
   {
     name: "twitter",
+    href: "https://twitter.com/arunsingh2300",
     url: "/twitter.svg",
   },
   {
     name: "linkedin",
+    href: "https://www.linkedin.com/in/arun-singh-1a0b25225/",
     url: "/linkedin.svg",
   },
   {
     name: "instagram",
+    href: "https://www.instagram.com/arunsingh_.08/",
     url: "/instagram.svg",
   },
   {
     name: "facebook",
+    href: "https://www.facebook.com/profile.php?id=100012163990032",
     url: "/facebook.svg",
   },
 ];

@@ -10,7 +10,7 @@ const Navbar = () => (
     variants={navVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} py-8 relative  `}
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
@@ -19,7 +19,7 @@ const Navbar = () => (
         METAVERSUS
       </h2> */}
       <div className="flex text-black font-bold ">
-        <ul className="flex flex-row  gap-20">
+        <ul className="flex flex-row  gap-20  flex-wrap ">
           <li>Emotions</li>
           <li>Manifasto</li>
           <li>Self-awareness Test</li>
