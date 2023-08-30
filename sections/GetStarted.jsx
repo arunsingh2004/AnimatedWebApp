@@ -1,14 +1,17 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import styles from '../styles';
-import { startingFeatures } from '../constants';
-import { StartSteps, TitleText, TypingText } from '../components';
-import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import styles from "../styles";
+import { startingFeatures } from "../constants";
+import { StartSteps, TitleText, TypingText } from "../components";
+import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section
+    className={`${styles.paddings} bg-orange-100 m-4 rounded-xl relative z-10`}
+  >
+    <TitleText title={<>Meet The Ahead App</>} textStyles="text-black" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -17,7 +20,7 @@ const GetStarted = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={planetVariants('left')}
+        variants={planetVariants("left")}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
@@ -27,19 +30,28 @@ const GetStarted = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.2, 1)}
+        variants={fadeIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How Metaversus Works" />
-        <TitleText title={<>Get started with just a few clicks</>} />
+        {/* <TypingText title="| How Metaversus Works" textStyles="text-black" /> */}
+        {/* <TitleText
+          title={<>Get started with just a few clicks</>}
+          textStyles="text-black"
+        /> */}
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((feature, index) => (
+          {/* {startingFeatures.map((feature, index) => (
             <StartSteps
               key={feature}
-              number={`${index < 10 ? '0' : ''} ${index + 1}`}
+              // number={`${index < 10 ? "0" : ""} ${index + 1}`}
               text={feature}
             />
-          ))}
+          ))} */}
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur necessitatibus cum hic ullam, in voluptate alias velit
+            impedit numquam aliquid?{" "}
+          </p>
         </div>
       </motion.div>
     </motion.div>
