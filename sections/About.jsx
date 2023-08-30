@@ -25,17 +25,13 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[10px] text-center text-secondary-black"
       >
-        <span className="font-extrabold text-black">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{" "}
-        <span className="font-extrabold text-black">
-          madness of the metaverse
-        </span>{" "}
-        of today, using only{" "}
-        <span className="font-extrabold text-black">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{" "}
+        <span className="font-extrabold text-black">Lorem</span> Lorem ipsum
+        dolor sit amet, consectetur adipisicing elit. Itaque eligendi voluptas
+        corporis facere nihil nam alias rem dolore eum? Odio.{" "}
+        <span className="font-extrabold text-black">Itaque eligendi</span> of
+        today, using only <span className="font-extrabold text-black">VR</span>{" "}
+        devices you can easily explore the metaverse world you want, turn your
+        dreams into reality. Let's{" "}
         <span className="font-extrabold text-black">explore</span> the madness
         of the metaverse by scrolling down
       </motion.p>
@@ -44,7 +40,7 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         src="/arrow-down.svg"
         alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
+        className="w-[18px] h-[28px] object-contain text-black bg-black mt-[28px]"
       />
     </motion.div>
   </section>
