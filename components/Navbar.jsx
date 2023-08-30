@@ -31,7 +31,10 @@ const Navbar = () => (
         alt="menu"
         className="w-[24px] h-[24px] object-contain"
       /> */}
-      <button className="bg-black w-[100px] h-[50px] text-white  rounded-2xl">
+      <button
+        type="submit"
+        className="bg-black w-[100px] h-[50px] text-white  rounded-2xl"
+      >
         DownLoad
       </button>
     </div>
