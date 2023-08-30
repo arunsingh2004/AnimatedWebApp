@@ -8,6 +8,7 @@ import {
   Insights,
   WhatsNew,
   World,
+  Experience,
 } from "../sections";
 
 const Home = () => (
@@ -25,6 +26,9 @@ const Home = () => (
       <WhatsNew />
     </div>
     {/* <World /> */}
+    <div className="relative">
+      <Experience />
+    </div>
     <div className="gradient-04 z-0" />
     <Feedback />
     <div className="relative">
